@@ -68,11 +68,11 @@ def save_info():
             # top = Tk()
             
             
-            heading = Label(text = "no", bg =  "green", fg = "black" , width = "500", height= "3")
+            heading = Label(text = "no, you do not need a treatment", bg =  "green", fg = "black" , width = "500", height= "3")
             heading.pack()
         else:
             
-            heading = Label(text = "yes", bg =  "red", fg = "black" , width = "500", height= "3")
+            heading = Label(text = "yes, you need a treatment", bg =  "red", fg = "black" , width = "500", height= "3")
             heading.pack()
     
         
